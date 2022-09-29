@@ -98,7 +98,7 @@
 			   :background nil))))
 
    ;; Dired
-   `(dired-directory ((t (:foreground ,tokyo-fg-1 :weight bold))))
+   `(dired-directory ((t (:foreground ,tokyo-magenta))))
    `(dired-ignored ((t ,(list :foreground tokyo-blue+5
 			      :inherit 'unspecified))))
 
