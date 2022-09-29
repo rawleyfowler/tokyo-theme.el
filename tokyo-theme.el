@@ -123,7 +123,7 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
-;; eval: (when (fboundp 'rainbow-mode (rainbow-mode +1))
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
 ;;; tokyo.el ends here.
