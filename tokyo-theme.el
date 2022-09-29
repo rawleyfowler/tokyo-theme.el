@@ -102,7 +102,7 @@
    `(dired-ignored ((t ,(list :foreground tokyo-blue+5
 			      :inherit 'unspecified))))
 
-   ;; ido
+   ;; Add ido support
    `(ido-first-match ((t (:foreground ,tokyo-yellow :bold nil))))
    `(ido-only-match ((t (:foreground ,tokyo-orange))))
    `(ido-subdir ((t (:foreground ,tokyo-green))))
@@ -118,12 +118,12 @@
 (when load-file-name
   (add-to-list 'custom-theme-load-path
 	       (file-name-as-directory (file-name-directory load-file-name))))
-(provide-theme 'tokyo)
 
+(provide 'tokyo-theme)
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; indent-tabs-mode: nil
-;; eval: (when (fboundp 'rainbow-mode (rainbow-mode +1))
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; tokyo.el ends here.
+;;; tokyo-theme.el ends here
