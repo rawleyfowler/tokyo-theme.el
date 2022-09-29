@@ -1,6 +1,8 @@
 # tokyo-theme.el
 Tokyo Night style theme for Emacs 24+
 
+![screenshot](https://i.imgur.com/yGBAVjV.png)
+
 This theme is based off of [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim), if you want to give any credit,
 direct it there!
 
