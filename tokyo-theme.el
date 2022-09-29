@@ -102,6 +102,11 @@
    `(dired-ignored ((t ,(list :foreground tokyo-blue+5
 			      :inherit 'unspecified))))
 
+   ;; ido
+   `(ido-first-match ((t (:foreground ,tokyo-yellow :bold nil))))
+   `(ido-only-match ((t (:foreground ,tokyo-orange))))
+   `(ido-subdir ((t (:foreground ,tokyo-green))))
+
    ;; eshell
    `(eshell-ls-backup ((t (:foreground ,tokyo-orange))))
    `(eshell-ls-directory ((t (:foreground ,tokyo-blue))))
@@ -121,4 +126,4 @@
 ;; eval: (when (fboundp 'rainbow-mode (rainbow-mode +1))
 ;; End:
 
-;;; tokyo-theme.el ends here.
+;;; tokyo.el ends here.
