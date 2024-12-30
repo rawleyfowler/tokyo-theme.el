@@ -6,6 +6,17 @@ Tokyo Night style theme for Emacs 24+
 This theme is based off of [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim), if you want to give any credit,
 direct it there!
 
+## Installing
+
+```elisp
+(straight-use-package
+ '(perltidy
+   :type git
+   :host github
+   :repo "rawleyfowler/tokyo-theme.el"
+   :branch "master"))
+```
+
 ## Contributing
 All contributions are welcome. I am not a very good Emacs Lisp programmer so any changes are welcome :)
 
