@@ -14,7 +14,7 @@ direct it there!
    :type git
    :host github
    :repo "rawleyfowler/tokyo-theme.el"
-   :branch "master"))
+   :branch "main"))
 ```
 
 ## Contributing
