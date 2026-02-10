@@ -10,7 +10,7 @@ direct it there!
 
 ```elisp
 (straight-use-package
- '(perltidy
+ '(tokyo-night
    :type git
    :host github
    :repo "rawleyfowler/tokyo-theme.el"
